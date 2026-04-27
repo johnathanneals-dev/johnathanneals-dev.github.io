@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="About"
+	description="A bit about Johnathan Neals."
+	pubDate={new Date()}
+>
+	<p>
+		I'm Johnathan Neals. I work on systems where reliability matters — the part of engineering
+		where you measure success in fewer surprises, not more features.
+	</p>
+
+	<p>
+		Right now I'm building a multi-agent platform on top of a shared persistent memory substrate.
+		Most of what shows up here will be lessons I extract from that work: drift detection,
+		operational discipline, how to design for honest failure modes, what to do when an LLM tries
+		to convince you of something that isn't true.
+	</p>
+
+	<p>
+		If something here resonates or you want to follow up, the easiest way to reach me is via
+		<a href="https://github.com/johnathanneals-dev">GitHub</a>.
+	</p>
+</Layout>
